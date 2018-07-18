@@ -1,7 +1,5 @@
 package com.iigo.library;
 
-import android.annotation.Nullable;
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -11,7 +9,6 @@ import android.graphics.Path;
 import android.graphics.PathMeasure;
 import android.os.Build;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -98,22 +95,21 @@ public class PinBallLoadingView  extends View{
         init();
     }
 
-    public PinBallLoadingView(Context context, @Nullable AttributeSet attrs) {
+    public PinBallLoadingView(Context context,AttributeSet attrs) {
         super(context, attrs);
         parseAttrs(attrs);
 
         init();
     }
 
-    public PinBallLoadingView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public PinBallLoadingView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         parseAttrs(attrs);
 
         init();
     }
 
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public PinBallLoadingView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public PinBallLoadingView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
         parseAttrs(attrs);
@@ -286,6 +282,28 @@ public class PinBallLoadingView  extends View{
      * */
     public void start(){
         startAnimation = true;
+        invalidate();
+    }
+
+    /**
+     * 代码设置可移动圆的颜色
+     *
+     * set the color of the moving circle.
+     * */
+    public void setMovingCircleColor(int movingCircleColor) {
+        this.movingCircleColor = movingCircleColor;
+        movingCirclePaint.setColor(movingCircleColor);
+        invalidate();
+    }
+
+    /**
+     * 代码设置外圆描边颜色
+     *
+     * set the stroke color of the outer circle
+     * */
+    public void setOuterCircleStrokeColor(int outerCircleStrokeColor) {
+        this.outerCircleStrokeColor = outerCircleStrokeColor;
+        outerCirclePaint.setColor(outerCircleStrokeColor);
         invalidate();
     }
 }

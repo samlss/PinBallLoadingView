@@ -1,6 +1,7 @@
 package com.iigo.pinballloadingview;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -26,7 +27,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         pinBallLoadingView1 = findViewById(R.id.pblv_loading1);
+
         pinBallLoadingView2 = findViewById(R.id.pblv_loading2);
+        pinBallLoadingView2.setMovingCircleColor(Color.parseColor("#ff669900"));
+        pinBallLoadingView2.setOuterCircleStrokeColor(Color.parseColor("#ffff8800"));
+
         pinBallLoadingView3 = findViewById(R.id.pblv_loading3);
 
         pinBallLoadingView4 = findViewById(R.id.pblv_loading4);
