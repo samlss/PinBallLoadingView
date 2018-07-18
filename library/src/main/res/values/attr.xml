@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PinBallLoadingView">
+        <attr name="moving_circle_radius" format="float"></attr>
+        <attr name="moving_circle_color" format="color"></attr>
+        <attr name="moving_speed_ratio" format="float"></attr>
+        <attr name="outer_circle_stoke_color" format="color"></attr>
+        <attr name="outer_circle_stoke_width" format="float"></attr>
+    </declare-styleable>
+</resources>
