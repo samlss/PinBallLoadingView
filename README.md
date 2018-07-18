@@ -2,7 +2,7 @@
 A pin ball loading view(一个弹球球loading view)。
 
 
-[![Api reqeust](https://img.shields.io/badge/api-1+-green.svg)](https://github.com/samlss/PacmanLoadingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/PacmanLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
+[![Api reqeust](https://img.shields.io/badge/api-1+-green.svg)](https://github.com/samlss/PinBallLoadingView)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/samlss/PinBallLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
 <br>
 
