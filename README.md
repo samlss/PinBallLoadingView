@@ -65,11 +65,11 @@ dependencies {
 
 | 属性        | 说明           |
 | ------------- |:-------------:|
-| moving_circle_radius      | 可移动小球的半径，默认为10，不超过内圆轨迹半径的五分之一 |
+| moving_circle_radius      | 可移动小球的半径，默认为10 |
 | moving_circle_color | 可移动圆的颜色，默认为红色 |
-| moving_speed_ratio      | 速度比例，值越大移动越快,不超过内圆半径的一半，默认为5|
+| moving_speed_ratio      | 速度比例，值越大移动越快，默认为5|
 | outer_circle_stoke_color      | 外圆描边颜色，默认为白色|
-| outer_circle_stoke_width      | 外圈的绘边大小，默认为5，不超过外圆半径的十分之一，默认为5 |
+| outer_circle_stoke_width      | 外圈的绘边大小，默认为5 |
 
 <br>
 
@@ -125,11 +125,11 @@ Attributes description：
 
 | attr        | description  |
 | ------------- |:-------------:|
-| moving_circle_radius      | the moving circle radius, the default is 10, not more than one-fifth of the radius of the inner circle |
+| moving_circle_radius      | the moving circle radius, the default is 10 |
 | moving_circle_color | The color of the moving circle, the default is red |
-| moving_speed_ratio      | speed ratio, the bigger the value, the faster the speed, not exceeding half of the inner circle radius, the default is 5|
+| moving_speed_ratio      | speed ratio, the bigger the value, the faster the speed, the default is 5|
 | outer_circle_stoke_color      | The color of the outer circle stroke, the default is white|
-| outer_circle_stoke_width      | Outer circle width, not more than one tenth of the radius of the outer circle, the default is 5 |
+| outer_circle_stoke_width      | Outer circle width, the default is 5 |
 
 If you can not meet your needs, you can download the source code to modify it.
 
