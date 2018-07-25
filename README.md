@@ -12,6 +12,8 @@ A pin ball loading view(一个弹球球loading view)。
 
 <br>
 
+![gif2](https://github.com/samlss/PinBallLoadingView/blob/master/screenshots/screenshot2.gif)
+
 ![gif1](https://github.com/samlss/PinBallLoadingView/blob/master/screenshots/screenshot1.gif)
 
 
