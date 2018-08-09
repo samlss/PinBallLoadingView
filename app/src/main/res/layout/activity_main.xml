@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -67,10 +66,8 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp"
-                app:moving_circle_color="#ff669900"
                 app:moving_speed_ratio="8.8"
                 app:moving_circle_radius="10"
-                app:outer_circle_stoke_color="#ffff8800"
                 app:outer_circle_stoke_width="12.5" />
 
 
@@ -105,11 +102,15 @@
 
             <com.iigo.library.PinBallLoadingView
                 android:id="@+id/pblv_loading4"
+                app:moving_circle_color="@color/colorPrimary"
+                app:outer_circle_stoke_color="@color/colorPrimary"
                 android:layout_width="100dp"
                 android:layout_height="100dp" />
 
             <com.iigo.library.PinBallLoadingView
                 android:id="@+id/pblv_loading5"
+                app:moving_circle_color="@color/colorPrimary"
+                app:outer_circle_stoke_color="@color/colorPrimary"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginLeft="10dp" />
@@ -117,6 +118,8 @@
 
             <com.iigo.library.PinBallLoadingView
                 android:id="@+id/pblv_loading6"
+                app:moving_circle_color="@color/colorPrimary"
+                app:outer_circle_stoke_color="@color/colorPrimary"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:layout_marginLeft="10dp" />
